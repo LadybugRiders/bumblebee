@@ -90,7 +90,7 @@ LR.GameObject.prototype.update = function() {
 	}
 };
 
-LR.GameObject.prototype.render = function() {$
+LR.GameObject.prototype.render = function() {
 	if( this.entity.exists ){
 		for(var i=0; i < this.behaviours.length; i++){
 			if( this.behaviours[i].render != null && this.behaviours[i].enabled  )
@@ -99,7 +99,7 @@ LR.GameObject.prototype.render = function() {$
 	}
 };
 
-LR.GameObject.prototype.destroy = function() {$
+LR.GameObject.prototype.destroy = function() {
 	if( this.entity.exists ){
 		for(var i=0; i < this.behaviours.length; i++){
 			if( this.behaviours[i].destroy != null )
