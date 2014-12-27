@@ -1,6 +1,6 @@
-bumblebee
+Bumblebee
 =========
 
-Template project using LadybugEngine with Phaser
+Template project for LREditor.
 
 By the LadybugRiders
